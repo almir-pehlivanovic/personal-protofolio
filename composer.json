@@ -1,5 +1,8 @@
 {
     "require": {
-        "sendgrid/sendgrid": "^7.9"
+        "sendgrid/sendgrid": "^7.9",
+        "mailgun/mailgun-php": "^3.2",
+        "kriswallsmith/buzz": "^1.2",
+        "nyholm/psr7": "^1.3"
     }
 }

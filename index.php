@@ -511,7 +511,7 @@
                         </div>
                     </div>
                     <div class="mx-c-0 mx-10 mt-20 2xl:flex-1 2xl:mr-28 2xl:ml-28 xl:flex-1">
-                        <form method="POST" class="contact-form relative bg-white p-8 2xl:p-12 text-gray-400 border-t border-b sm:border border-gray-400 rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl">
+                        <form action="sendEmail.php" method="POST" class="contact-form relative bg-white p-8 2xl:p-12 text-gray-400 border-t border-b sm:border border-gray-400 rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl">
                             <input name="subject" class="subject w-full mb-8 2xl:mb-16 py-5 px-6 rounded-xl placeholder-gray-400::placeholder border border-gray-400 focus:outline-none focus:border-8 focus:border-indigo-500" type="text" placeholder="Subject*">
                             <input name="fromEmail" class="email w-full mb-8 2xl:mb-16 py-5 px-6 rounded-xl placeholder-gray-400::placeholder border border-gray-400 focus:outline-none focus:border-8 focus:border-indigo-500" type="text" placeholder="Email*">
                             <textarea name="message" class="message w-full mb-8 2xl:mb-16 py-5 px-6 rounded-xl placeholder-gray-400::placeholder border border-gray-400 focus:outline-none focus:border-8 focus:border-indigo-500" cols="30" rows="10" placeholder="Message*"></textarea>
