@@ -348,7 +348,7 @@
                 <div class="relative carousel-track lg:mt-12 xl:mt-0">
                     <div class="flex relative mt-12 lg:mt-0 transition-cr" id="track">
                         <div class="ml-6 absolute top-0 left-0 current-slide carousel-track">
-                            <a target="blank" href="#">
+                            <a target="blank" href="https://ui-inbox.herokuapp.com/">
                                 <div class="w-80 md:w-auto rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl relative">
                                     <img class="rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl" src="img/inboxUI.png" alt="">
                                     <div class="absolute bg-opacity-60 bg-white bottom-0 left-0 pb-4 px-4 right-0 rounded-bl-2xl rounded-tl-2xl">
