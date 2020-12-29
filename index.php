@@ -337,7 +337,7 @@
         </div>
 
         <!-- Projects section -->
-        <div class="mt-24 sm:mt-40 lg:mt-52">
+        <div class="mt-24 sm:mt-40 lg:mt-52 overflow-x-hidden">
             <div class="flex flex-wrap xl:flex-nowrap">
                 <div class="px-10 sm:px-20 bg-indigo-50 z-10">
                     <img class="mr-auto lg:ml-auto lg:mr-0" src="img/circles-3x.png" alt="">
