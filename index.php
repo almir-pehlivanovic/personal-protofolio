@@ -172,7 +172,7 @@
         <!-- About me section -->
         <div class="lg:mx-20 mt-24 sm:mt-40 flex justify-center flex-wrap xl:flex-nowrap items-center">
             <div  class="bg-indigo-100">
-                <img style="width:560px; height:760px;" src="" alt="">
+                <img class="hidden sm:block"style="width:560px; height:760px;" src="" alt="">
             </div>
             <div class="px-10 px-c-2 lg:px-20">
                 <h2 class="text-3xl font-bold text-gray-800">About me</h2>
