@@ -9,8 +9,7 @@ class SendEmail
 
     public static function SendMail($to, $subject, $content)
     {
-        // $key = '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';
-        $key = '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';
+        $key = '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';
 
         echo $to;
         $email = new \SendGrid\Mail\Mail();
