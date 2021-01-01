@@ -3,14 +3,30 @@
 
 # Include the Autoloader (see "Libraries" for install instructions)
 require 'vendor/autoload.php';
-use Mailgun\Mailgun;
-# Instantiate the client.
-$mgClient = new Mailgun('YOUR_API_KEY');
-$domain = "YOUR_DOMAIN_NAME";
-# Make the call to the client.
-$result = $mgClient->sendMessage($domain, array(
-	'from'	=> 'Excited User <mailgun@YOUR_DOMAIN_NAME>',
-	'to'	=> 'pehlivanovicalmir1@gmail.com',
-	'subject' => 'Hello',
-	'text'	=> 'Testing some Mailgun awesomness!'
-));
+
+class SendEmail
+{
+
+    public static function SendMail($to, $subject, $content)
+    {
+        $key = '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';
+
+        echo $to;
+        $email = new \SendGrid\Mail\Mail();
+        $email->setFrom("pehlivanovicalmir1@gmail.com");
+        $email->setSubject($subject);
+        $email->addTo($to);
+        $email->addContent("text/plain", $content);
+        
+        
+        $sendGrid = new \SendGrid($key);
+
+        try{
+            $response = $sendGrid->send($email);
+            return $response;
+        }catch(Exception $e){
+            echo 'Email exception caught' . $e->getMessage() . "\n";
+            return false;
+        }
+    }
+}

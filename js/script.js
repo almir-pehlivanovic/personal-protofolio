@@ -41,13 +41,18 @@ nextButton.addEventListener('click', e => {
 
 const menuButton = document.querySelector('.menu-block');
 const menuButtonSm = document.querySelector('.menu-block-sm');
+
 const menuIcon = document.querySelector('.menu-button');
+const menuIconSm = document.querySelector('.menu-button-sm');
+
 const menuLine = Array.from(menuIcon.children);
+const menuLineSm = Array.from(menuIconSm.children);
+
 const menuShow = document.querySelector('.menu-show');
 const menuShowWhite = document.querySelector('.menu-show-white');
 let toggle = 0;
 
-function toggleMenu() {
+function toggleMenu(menuLine) {
     toggle++;
     if(toggle === 1 ){
         menuLine[0].style.transform = 'translateY(2px) rotate(45deg)';
@@ -78,10 +83,73 @@ function toggleMenu() {
 }
 
 menuButton.addEventListener('click', e =>{
-    toggleMenu();
+    toggleMenu(menuLine);
 });
 
 menuButtonSm.addEventListener('click', e =>{
-    toggleMenu();
+    toggleMenu(menuLineSm);
 });
+
+// form validation
+const subject       = document.querySelector('.subject');
+const email         = document.querySelector('.email');
+const message       = document.querySelector('.message');
+const submitButton  = document.querySelector('.btnSend');   
+const warningText   = document.querySelector('.waring-text');   
+const successText   = document.querySelector('.success-text');   
+
+subject.addEventListener('focusout', (event) => {
+    checkValue(event);
+});
+
+email.addEventListener('focusout', (event) => {
+    checkValue(event);
+});
+
+message.addEventListener('focusout', (event) => {
+    checkValue(event);
+});
+
+function checkValue(value){
+    if(value.target.value == ''){
+        value.target.style.borderColor = '#EF4444';
+        value.target.classList.add('text-red-placeholder');
+    }else{
+        value.target.style.borderColor = '#3B82F6';
+        value.target.classList.remove('text-red-placeholder');
+        value.target.classList.remove('placeholder-red-400::placeholder');
+    }
+}
+
+submitButton.addEventListener('click', () => {
+    if(subject.value != '' && email.value != '' && message.value != ''){
+        successText.style.display = 'block';
+        warningText.style.display = 'none';
+    }else{
+        successText.style.display = 'none';
+        warningText.style.display = 'block';
+    }
+});
+
+//smooth scroll 
+
+const scroll = new SmoothScroll('.navigation a[href*="#"]', {
+    speed: 800,
+    speedAsDuration: true
+});
+
+
+const topBtn = document.querySelector(".topBtn");
+
+// When the user scrolls down 200px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+}
+
 

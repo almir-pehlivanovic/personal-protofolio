@@ -4,13 +4,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/custom.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Almir Pehlivanovic</title>
     </head>
-    <body class="overflow-x-hidden bg-indigo-50 font-body">
-        <div class="flex flex-wrap-reverse">
+    <body class="overflow-x-hidden bg-indigo-50 font-body" >
+        <div id="top" class="flex flex-wrap-reverse">
             <div class="absolute xl:hidden top-0 left-0 p-6 bg-white border border-indigo-400 shadow-md rounded-br-xl z-50">
                 <button class="menu-block-sm z-50 focus:outline-none">
-                    <div class="menu-button">
+                    <div class="menu-button-sm">
                         <div class="menu-icon-c"></div>
                         <div class="menu-icon-c"></div>
                         <div class="menu-icon-c"></div>
@@ -28,32 +29,32 @@
                         </div>
                     </button>
                     <div>
-                        <ul class="hidden ml-4 xl:flex text-lg text-gray-800 font-semibold">
-                            <li><a class="py-1 pl-1 pr-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#">About me</a></li>
-                            <li class="pl-6"><a class="py-1 px-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#">Experience</a></li>
-                            <li class="pl-6"><a class="py-1 px-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#">Projects</a></li>
-                            <li class="pl-6"><a class="py-1 px-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#">Services</a></li>
-                            <li class="pl-6"><a class="py-1 pl-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#">Contact</a></li>
+                        <ul class="navigation hidden ml-4 xl:flex text-lg text-gray-800 font-semibold">
+                            <li><a class="py-1 pl-1 pr-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#aboutMe">About me</a></li>
+                            <li class="pl-6"><a class="py-1 px-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#experience">Experience</a></li>
+                            <li class="pl-6"><a class="py-1 px-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#projects">Projects</a></li>
+                            <li class="pl-6"><a class="py-1 px-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#services">Services</a></li>
+                            <li class="pl-6"><a class="py-1 pl-2 border-b-2 border-indigo-50 hover:border-indigo-600 transition ease-linear duration-200" href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </header>   
                  <!-- Description section -->
-                <div class="mt-12 xl:mb-20 text-center xl:text-left">
+                <div class="mt-12 xl:mb-20 text-center xl:text-left" data-aos="fade-right">
                     <h3 class="xl:ml-20 pl-6 sm:pl-0 xl:pl-2.5 text-2xl sm:text-3xl xl:text-2xl font-semibold text-indigo-400">Hi There,</h3>
                     <h1 class="xl:ml-20 pl-6 sm:pl-0 xl:pl-2.5 text-4xl mt-8 2xl:text-8xl sm:text-6xl font-bold text-gray-700">I'm Almir</h1>
                     <h1 class="xl:ml-20 pl-6 sm:pl-0 xl:pl-2.5 text-4xl 2xl:text-8xl sm:text-6xl font-bold text-gray-700">Pehlivanović</h1>
                     <p class="xl:ml-20 pl-6 pr-6 sm:pr-0 sm:pl-0 xl:pl-2.5 mt-6 mb-3.5 sm:text-2xl xl:text-lg text-gray-800">Bachelor of Electrical Engineering & Web Developer</p>
                     <div class="flex flex-wrap justify-center px-6 xl:px-0 xl:justify-start xl:ml-20 sm:mt-8 text-base">
-                        <div class="px-2 sm:px-0 z-10">
-                            <button class="xl:ml-2.5 mt-5 sm:mt-0 py-3 px-4 text-white rounded-lg bg-indigo-500 hover:bg-indigo-400 transition ease-in duration-200 font-semibold">Download Resume</button>
+                        <div class="px-2 sm:px-0 z-10 mt-5 sm:mt-0">
+                            <a href="#" class="xl:ml-2.5 py-3 px-4 block text-white rounded-lg bg-indigo-500 hover:bg-indigo-400 transition ease-in duration-200 font-semibold">Download Resume</a>
                         </div>
-                        <div class="xl:mb-44 px-2 sm:px-0 z-10">
-                            <button class="sm:ml-11 mt-5 sm:mt-0 py-3 px-12 text-gray-900 rounded-lg bg-gray-100 border border-gray-400 hover:bg-gray-200 transition ease-in duration-200 font-semibold">About me</button>
+                        <div class="navigation xl:mb-44 px-2 sm:px-0 z-10 mt-5 sm:mt-0">
+                            <a href="#aboutMe" class="sm:ml-11 py-3 block px-12 text-gray-900 rounded-lg bg-gray-100 border border-gray-400 hover:bg-gray-200 transition ease-in duration-200 font-semibold">About me</a>
                         </div>
                     </div>
                 </div>
                 <!-- Left bottom dosts & small circle -->
-                <div class="relative -mt-24 -ml-44 2xl:mb-12 2xl:pb-1 xl:-ml-36">
+                <div class="relative -mt-24 -ml-44 2xl:mb-12 2xl:pb-1 xl:-ml-36" style ="z-index: -1;">
                     <img src="img/dots-indigo.png" alt="">
                     <div class="absolute bg-indigo-400 w-16 h-16 bg-opacity-20 left-1/2 bottom-1/2 transform translate-x-1/2 -translate-1/2 rounded-full"></div>
                 </div>
@@ -63,12 +64,12 @@
             <div class="min-w-full xl:min-w-max flex-1 xl:pl-48 pl-0 pb-20 xl:pb-0">
                 <div class="flex justify-center xl:justify-start 2xl:pt-24 2xl:pb-48 xl:pt-28 xl:pb-52 pt-16 bg-indigo-600 rounded-bl-3xl">
                     <!-- Profile image & bottom left circle on image -->
-                    <div class="relative xl:w-auto xl:-ml-48 xl:mt-20 mt-14 2xl:mb-4 xl:mb-20 -mb-16 bg-gray-300 rounded-bl-3xl rounded-tl-profile rounded-tr-xl shadow-md z-10">
+                    <div class="relative xl:w-auto xl:-ml-48 xl:mt-20 mt-14 2xl:mb-4 xl:mb-20 -mb-16 bg-gray-300 rounded-bl-3xl rounded-tl-profile rounded-tr-xl shadow-md z-10"data-aos="zoom-in">
                         <img class="rounded-bl-3xl img-lg-res" src="img/profile-removebg-preview-removebg.png" alt="">
                         <div class="absolute bg-indigo-400 w-24 h-24 bg-opacity-20 -bottom-11 -left-11 rounded-full"></div>
                     </div>
                     <!-- Profile white dots -->
-                    <div class="-ml-24 xl:-ml-28">
+                    <div class="-ml-24 xl:-ml-28" data-aos="zoom-in">
                         <img class="dots-profile" src="img/dots-white.png" alt="">
                     </div>
                 </div>
@@ -82,12 +83,12 @@
             <div class="hidden menu-show absolute top-0 left-0 right-0 bottom-0 bg-gray-800 bg-opacity-50 z-40">
             </div>
             <div class="hidden absolute top-0 left-0 right-0 bottom-0 bg-white bg-opacity-90 h-screen w-full sm:w-2/3 lg:w-1/3 rounded-tr-3xl menu-show-white z-40">
-                <ul class="text-lg text-gray-800 font-semibold px-8 sm:px-16 xl:px-24 transform translate-y-1/2 text-center sm:text-left">
-                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#">About me</a></li>
-                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#">Experience</a></li>
-                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#">Projects</a></li>
-                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#">Services</a></li>
-                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#">Contact</a></li>
+                <ul class="navigation text-lg text-gray-800 font-semibold px-8 sm:px-16 xl:px-24 transform translate-y-1/2 text-center sm:text-left">
+                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#aboutMe">About me</a></li>
+                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#experience">Experience</a></li>
+                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#projects">Projects</a></li>
+                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#services">Services</a></li>
+                    <li class="pt-4"><a class="border-b-2 border-white border-opacity-10 hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="#contact">Contact</a></li>
                     <li class="pt-4"><a class="hover:text-indigo-600 hover:border-indigo-600 transition ease-linear duration-200" href="mailto:pehlivanovicalmir1@gmail.com"><p>pehlivanovicalmir1@gmail.com</a></li>
                     <div class="flex items-center mt-4 justify-center sm:justify-start">
                         <a href="https://www.facebook.com/almir.pehlivanovic">
@@ -118,7 +119,7 @@
         </div>
         
         <!-- Working with section -->
-        <div class="mx-10 sm:mx-20 sm:mt-40">
+        <div class="mx-10 sm:mx-20 sm:mt-40" data-aos="fade-down">
             <h2 class="text-3xl font-bold text-gray-800">Work with</h2>
             <div class="flex items-center flex-wrap justify-between mt-12 sm:mt-14">
                 <div class="flex items-center px-2 py-2 sm:py-1">
@@ -170,66 +171,70 @@
         </div>
 
         <!-- About me section -->
-        <div class="lg:mx-20 mt-24 sm:mt-40 flex justify-center flex-wrap xl:flex-nowrap items-center">
-            <div  class="bg-indigo-100">
-                <img class="hidden sm:block"style="width:560px; height:760px;" src="" alt="">
+        <div id="aboutMe" class="flex items-center flex-wrap xl:flex-nowrap">
+            <div class="mx-auto xl:mx-20 mt-24 xl:mt-40 lg:flex-shrink-0 relative" data-aos="fade-down">
+                <img class="img-ab-res mx-auto" src="img/processed.png" alt="">
+                <div class="absolute bg-indigo-400 w-24 h-24 bg-opacity-20 -bottom-16 -right-10 rounded-full"></div>
             </div>
-            <div class="px-10 px-c-2 lg:px-20">
-                <h2 class="text-3xl font-bold text-gray-800">About me</h2>
-                <h2 class="mt-9 text-3xl font-semibold text-indigo-400">I'm Web Developer and also Bachelor of  Electrical Engenering </h2>
-                <p class="mt-10 text-xl sm:text-2xl text-gray-600"> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                    deserunt mollit anim id est laborum.
-                </p>
-                <div>
-                    <div class="flex flex-wrap justify-between">
-                        <div class="mr-8 mt-9 flex sm:items-center text-xl sm:text-2xl text-gray-600">
-                            <span class="mr-1">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                            </span>
-                            <p class="hover:text-gray-800"><span class="mr-4 font-semibold text-gray-800">Location:</span> 77000 Bihać</p> 
-                        </div>
-                        <div class="mr-8 mt-9 flex sm:items-center text-xl sm:text-2xl text-gray-600">
-                            <span class="mr-1">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                </svg>
-                            </span>
-                            <p class="hover:text-gray-800"><span class="mr-4 font-semibold text-gray-800">Age:</span> 24 </p> 
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap justify-between">
-                        <div class="mr-8 mt-9 flex sm:items-center text-xl sm:text-2xl text-gray-600 ">
-                            <span class="mr-1">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                </svg>
-                            </span>
-                            <p class="hover:text-gray-800"><span class="mr-4 font-semibold text-gray-800">Phone:</span> +387 60-358-7468</p> 
-                        </div>
-                        <div class="mr-8 mt-9 flex sm:items-center text-xl sm:text-2xl text-gray-600">
-                            <span class="mr-1">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                </svg>
-                            </span>
-                        <a class="flex flex-wrap hover:text-gray-800" href="mailto:pehlivanovicalmir1@gmail.com"><span class="mr-4 font-semibold text-gray-800">Email:</span><span class="mx-c-2">pehlivanovicalmir1@gmail.com</span></a> 
-                        </div>
-                    </div>
+            <div class="mx-6 xl:mx-10 mt-24 xl:mt-0 xl:mr-20" data-aos="fade-down">
+                <div class="relative">
+                    <h2 class="text-3xl font-bold text-gray-800">About me</h2>
+                    <h2 class="mt-9 text-3xl font-semibold text-indigo-400">I'm Web Developer and also Bachelor of  Electrical Engenering </h2>
+                    <p class="mt-10 text-xl sm:text-2xl text-gray-600"> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="absolute top-1/2 hidden sm:block sm:left-1/4 w-96 h-96 bg-opacity-20 bg-indigo-400 rounded-full" style="z-index:-1"></div>
                 </div>
+                    <div class="flex justify-between flex-wrap">
+                        <div>
+                            <div class="flex items-center text-sm sm:text-xl lg:text-2xl text-gray-600 mt-9 flex-shrink-0">
+                                <span class="mr-1">
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                </span>
+                                <p class="hover:text-gray-800"><span class="mr-1 sm:mr-4 font-semibold text-gray-800">Location:</span> 77000 Bihać</p> 
+                            </div>
+                            <div class="flex items-center text-sm sm:text-xl lg:text-2xl text-gray-600 mt-9 flex-shrink-0">
+                                <span class="mr-1">
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                </span>
+                                <p class="hover:text-gray-800"><span class="mr-1 sm:mr-4 font-semibold text-gray-800">Phone:</span> +387 60-358-7468</p> 
+                            </div>  
+                        </div>
+                        <div>
+                            <div class="flex items-center text-sm sm:text-xl lg:text-2xl text-gray-600 mt-9 flex-shrink-0">
+                                <span class="mr-1">
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                    </svg>
+                                </span>
+                                <p class="hover:text-gray-800"><span class="mr-1 sm:mr-4 font-semibold text-gray-800">Age:</span> 24 </p> 
+                            </div>
+                            <div class="flex items-center text-sm sm:text-xl lg:text-2xl text-gray-600 mt-9 flex-shrink-0">
+                                <span class="mr-1">
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                </span>
+                                <a class="hover:text-gray-800" href="mailto:pehlivanovicalmir1@gmail.com"><span class="mr-1 sm:mr-4 font-semibold text-gray-800">Email:</span><span>pehlivanovicalmir1@gmail.com</span></a> 
+                            </div>
+                        </div>
+                    </div>
             </div>
-            
         </div>
+        
         <!-- Experience section (timeline)-->
-        <div class="mt-24 sm:mt-40 relative">
-            <div class="text-center">
+        <div id="experience" class="mt-24 sm:mt-40 relative">
+            <div class="text-center" data-aos="fade-down">
                 <h3 class="text-3xl font-semibold text-indigo-400">My Life Story</h3>
                 <h2 class="text-3xl font-bold text-gray-800 mt-4">Education & Experience</h2>
             </div>
@@ -237,7 +242,7 @@
             <div class="mt-16 sm:mt-16 xl:mt-22 2xl:mt-28">
                 <div class="flex flex-wrap 2xl:flex-nowrap justify-center lg:mx-40 2xl:mx-96">
                     <div class="z-10 relative">
-                        <div class="bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl shadow-xl">
+                        <div class="bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl shadow-xl" data-aos="fade-down">
                             <div class="flex flex-wrap sm:flex-nowrap items-center">
                                 <div class="bg-indigo-400 bg-opacity-20 px-8 flex items-center mb-8 sm:mb-0 justify-center h-24 w-80 text-center rounded-br-xl rounded-tl-card-tl">
                                     <p class="text-xl sm:text-2xl font-semibold text-indigo-400 mx-0.5">December 2020</p>
@@ -258,7 +263,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="right-0 -bottom-20 lg:-right-20 absolute" style="z-index: -1;">
+                        <div class="right-0 -bottom-20 lg:-right-20 absolute" style="z-index: -1;"data-aos="fade-down">
                             <img class="w-56 h-48 object-contain" src="img/dots-indigo.png" alt="">
                         </div>
                     </div>
@@ -269,7 +274,7 @@
             <div class="mt-36 sm:mt-44">
                 <div class="flex flex-wrap 2xl:flex-nowrap justify-center lg:mx-40 2xl:mx-96">
                     <div class="z-10 relative">
-                        <div class="bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl shadow-xl">
+                        <div class="bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl shadow-xl" data-aos="fade-down">
                             <div class="flex flex-wrap sm:flex-nowrap items-center">
                                 <div class="bg-indigo-400 bg-opacity-20 px-8 flex items-center mb-8 sm:mb-0 justify-center h-24 w-80 text-center rounded-br-xl rounded-tl-card-tl">
                                     <p class="text-xl sm:text-2xl font-semibold text-indigo-400 mx-0.5">May 2019 - June 2020</p>
@@ -290,7 +295,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="right-0 -bottom-20 lg:-right-20 absolute" style="z-index: -1;">
+                        <div class="right-0 -bottom-20 lg:-right-20 absolute" style="z-index: -1;" data-aos="fade-down">
                             <img class="w-56 h-48 object-contain" src="img/dots-indigo.png" alt="">
                         </div>
                     </div>
@@ -301,7 +306,7 @@
              <div class="mt-36 sm:mt-44">
                 <div class="flex flex-wrap 2xl:flex-nowrap justify-center lg:mx-40 2xl:mx-96">
                     <div class="z-10 relative">
-                        <div class="bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl shadow-xl">
+                        <div class="bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl shadow-xl" data-aos="fade-down">
                             <div class="flex flex-wrap sm:flex-nowrap items-center">
                                 <div class="bg-indigo-400 bg-opacity-20 px-8 flex items-center mb-8 sm:mb-0 justify-center h-24 w-80 text-center rounded-br-xl rounded-tl-card-tl">
                                     <p class="text-xl sm:text-2xl font-semibold text-indigo-400 mx-0.5">December 2017 - June 2018</p>
@@ -322,7 +327,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="right-0 -bottom-20 lg:-right-20 absolute" style="z-index: -1;">
+                        <div class="right-0 -bottom-20 lg:-right-20 absolute" style="z-index: -1;" data-aos="fade-down">
                             <img class="w-56 h-48 object-contain" src="img/dots-indigo.png" alt="">
                         </div>
                     </div>
@@ -337,7 +342,7 @@
         </div>
 
         <!-- Projects section -->
-        <div class="mt-24 sm:mt-40 lg:mt-52 overflow-x-hidden">
+        <div id="projects" class="mt-24 sm:mt-40 lg:mt-52 overflow-x-hidden" data-aos="fade-left">
             <div class="flex flex-wrap xl:flex-nowrap">
                 <div class="px-10 sm:px-20 bg-indigo-50 z-10">
                     <img class="mr-auto lg:ml-auto lg:mr-0" src="img/circles-3x.png" alt="">
@@ -384,7 +389,7 @@
                 </div>
             </div>
                 <!-- Carousel navigation -->
-            <div class="flex sm:justify-end  justify-center mx-10 sm:mx-20 md:mt-24 ">
+            <div class="flex sm:justify-end  justify-center mx-10 sm:mx-20 md:mt-24">
                 <div class="mx-4 z-10">
                     <button class="prev px-8 py-3 lg:px-12 lg:py-5 2xl:px-16 2xl:py-7 bg-white border border-gray-400 rounded-tl-card-tl rounded-tr-md rounded-bl-md rounded-br-3xl hover:border-indigo-500 focus:outline-none">
                         <img class="carousel-arrows-sm" src="img/left-arrow.png" alt="">
@@ -399,12 +404,12 @@
         </div>
 
         <!-- Services section -->
-        <div class="mt-24 sm:mt-40">
-            <div class="text-center text-3xl font-bold text-gray-800">
+        <div id="services" class="mt-24 sm:mt-40">
+            <div class="text-center text-3xl font-bold text-gray-800" data-aos="fade-down">
                 <h2>Service I'm Offering</h2>
             </div>
             <div class="md:mx-28 lg:mx-52 flex flex-wrap xl:flex-nowrap">
-                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h">
+                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h" data-aos="fade-down">
                     <div class="absolute top-0 right-0 rounded-tr-xl rounded-bl-3xl bg-indigo-600 w-2/3 h-6 bg-cl-hb"></div>
                     <div class="font-semibold px-8 py-16">
                         <h2 class="text-gray-800 text-2xl sm:text-3xl">Web Design</h2>
@@ -421,7 +426,7 @@
                     </div>
                     <div class="hidden xl:block absolute bg-indigo-400 w-96 h-96 bg-opacity-10 rounded-full -bottom-40 -right-32 z-10"></div>
                 </div>
-                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h">
+                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h"data-aos="fade-down">
                     <div class="absolute top-0 right-0 rounded-tr-xl rounded-bl-3xl bg-indigo-600 w-2/3 h-6 bg-cl-hb"></div>
                     <div class="font-semibold px-8 py-16">
                         <h2 class="text-2xl sm:text-3xl text-gray-800">Web Development</h2>
@@ -436,7 +441,7 @@
                 </div>
             </div>
             <div class="md:mx-28 lg:mx-52 flex flex-wrap xl:flex-nowrap"> 
-                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h">
+                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h" data-aos="fade-down">
                     <div class="absolute top-0 right-0 rounded-tr-xl rounded-bl-3xl bg-indigo-600 w-2/3 h-6 bg-cl-hb"></div>
                     <div class="font-semibold px-8 py-16">
                         <h2 class="text-2xl sm:text-3xl text-gray-800">Graphic Design</h2>
@@ -449,7 +454,7 @@
                         </p>
                     </div>  
                 </div>  
-                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h">
+                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h" data-aos="fade-down">
                     <div class="absolute top-0 right-0 rounded-tr-xl rounded-bl-3xl bg-indigo-600 w-2/3 h-6 bg-cl-hb"></div>
                     <div class="font-semibold px-8 py-16">
                         <h2 class="text-2xl sm:text-3xl text-gray-800">Maintenance & Support</h2>
@@ -466,7 +471,7 @@
         </div>
 
         <!-- Contact section -->
-        <div class="mt-24 sm:mt-40">
+        <div id="contact" class="mt-24 sm:mt-40">
             <div class="flex items-center flex-wrap justify-between md:mx-28 lg:mx-52 xl:mx-0 relative">
                 <div class="absolute bottom-0 left-1/3">
                     <img class="mr-auto lg:ml-auto lg:mr-0" src="img/circles-3x.png" alt="">
@@ -479,43 +484,45 @@
                         </p>
                     </div>
                     <div class="px-md-m px-8">
-                        <div class="text-lg sm:text-2xl text-gray-600 font-semibold"">
+                        <div class="text-lg sm:text-2xl text-gray-600 font-semibold" data-aos="fade-right">
                             <div class="flex items-center mt-8 sm:mt-11">
                                     <span class="mr-1 sm:mr-8">
-                                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                        </svg>
-                                    </span>
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                </span>
                                 <a class="hover:text-gray-800" href="mailto:pehlivanovicalmir1@gmail.com"><p>pehlivanovicalmir1@gmail.com</p></a> 
-                                </div>
-                                <div class="flex items-center mt-8 sm:mt-11">
+                            </div>
+                            <div class="flex items-center mt-8 sm:mt-11" data-aos="fade-right">
+                                <span class="mr-1 sm:mr-8">
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                </span>
+                                <p class="hover:text-gray-800">+387 60-358-7468</p> 
+                            </div>
+                            <a class="hover:text-gray-800" href="https://www.facebook.com/almir.pehlivanovic" data-aos="fade-right">
+                                <p class="flex items-center mt-8 sm:mt-11" >
+                                
                                     <span class="mr-1 sm:mr-8">
-                                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                        <svg class="h-6 w-3.5 mr-2.5" xmlns="http://www.w3.org/2000/svg" width="1298" height="2500" viewBox="88.428 12.828 107.543 207.085">
+                                            <path d="M158.232 219.912v-94.461h31.707l4.747-36.813h-36.454V65.134c0-10.658 2.96-17.922 18.245-17.922l19.494-.009V14.278c-3.373-.447-14.944-1.449-28.406-1.449-28.106 0-47.348 17.155-47.348 48.661v27.149H88.428v36.813h31.788v94.461l38.016-.001z" fill="#3c5a9a"/>
                                         </svg>
                                     </span>
-                                    <p class="hover:text-gray-800">+387 60-358-7468</p> 
-                                </div>
-                                <a class="hover:text-gray-800" href="https://www.facebook.com/almir.pehlivanovic">
-                                    <p class="flex items-center mt-8 sm:mt-11">
-                                    
-                                        <span class="mr-1 sm:mr-8">
-                                            <svg class="h-6 w-3.5 mr-2.5" xmlns="http://www.w3.org/2000/svg" width="1298" height="2500" viewBox="88.428 12.828 107.543 207.085">
-                                                <path d="M158.232 219.912v-94.461h31.707l4.747-36.813h-36.454V65.134c0-10.658 2.96-17.922 18.245-17.922l19.494-.009V14.278c-3.373-.447-14.944-1.449-28.406-1.449-28.106 0-47.348 17.155-47.348 48.661v27.149H88.428v36.813h31.788v94.461l38.016-.001z" fill="#3c5a9a"/>
-                                            </svg>
-                                        </span>
-                                        Almir Pehlivanovic
-                                    </p>
-                                </a>    
+                                    Almir Pehlivanovic
+                                </p>
+                            </a>    
                             </div>
                         </div>
                     </div>
-                    <div class="mx-c-0 mx-10 mt-20 2xl:flex-1 2xl:mr-28 2xl:ml-28 xl:flex-1">
-                        <form action="sendEmail.php" method="POST" class="contact-form relative bg-white p-8 2xl:p-12 text-gray-400 border-t border-b sm:border border-gray-400 rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl">
-                            <input name="subject" class="subject w-full mb-8 2xl:mb-16 py-5 px-6 rounded-xl placeholder-gray-400::placeholder border border-gray-400 focus:outline-none focus:border-8 focus:border-indigo-500" type="text" placeholder="Subject*">
-                            <input name="fromEmail" class="email w-full mb-8 2xl:mb-16 py-5 px-6 rounded-xl placeholder-gray-400::placeholder border border-gray-400 focus:outline-none focus:border-8 focus:border-indigo-500" type="text" placeholder="Email*">
-                            <textarea name="message" class="message w-full mb-8 2xl:mb-16 py-5 px-6 rounded-xl placeholder-gray-400::placeholder border border-gray-400 focus:outline-none focus:border-8 focus:border-indigo-500" cols="30" rows="10" placeholder="Message*"></textarea>
-                            <button name="sendMailBtn" type="submit" class="btnSend bg-indigo-600 duration-150 ease-in font-bold hover:bg-indigo-500 lg:text-2xl py-5 rounded-xl text-center text-white text-xl transition w-full">Send</button>
+                    <div class="mx-c-0 mx-10 mt-20 2xl:flex-1 2xl:mr-28 2xl:ml-28 xl:flex-1" data-aos="fade-down">
+                        <form action="success.php" method="POST" class="contact-form relative bg-white p-8 2xl:p-12 text-gray-600 border-gray-400 rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl shadow-2xl">
+                            <p class="hidden waring-text mb-2 font-bold text-red-400">Please fill in the fields marked with *</p>
+                            <p class="hidden p-2 mb-4 text-center success-text font-semibold  rounded-xl bg-green-400">Your email has been sent successfully</p>
+                            <input name="subject" class="subject w-full mb-6 2xl:mb-12 py-3 px-6 rounded-xl placeholder-gray-400::placeholder border-2 border-gray-400 focus:outline-none focus:border-indigo-500" type="text" placeholder="Subject *" required>
+                            <input name="fromEmail" class="email w-full mb-6 2xl:mb-12 py-3 px-6 rounded-xl placeholder-gray-400::placeholder border-2 border-gray-400 focus:outline-none focus:border-indigo-500" type="email" placeholder="Email *" required>
+                            <textarea name="message" class="message w-full mb-6 2xl:mb-12 py-3 px-6 rounded-xl placeholder-gray-400::placeholder border-2 border-gray-400 focus:outline-none focus:border-indigo-500" cols="30" rows="10" placeholder="Message *" required></textarea>
+                            <button name="sendMailBtn" type="submit" class="btnSend bg-indigo-600 duration-150 ease-in font-bold hover:bg-indigo-500 lg:text-2xl py-3 rounded-xl text-center text-white text-xl transition w-full focus:outline-none">Send</button>
                             <div class="absolute top-1/2 transform -translate-y-1/2 -left-14" style="z-index: -1;">
                                 <img clas="w-56 h-48 object-contain" src="img/dots-indigo.png" alt="">
                             </div>
@@ -554,6 +561,19 @@
                 </div>
             </div>
         </div>
+
+        <div class="navigation">
+            <a href="#top" class="topBtn w-16 fixed bottom-32 md:bottom-24 right-5 z-50 hidden rounded-full p-4">
+            <svg class="w-12 h-12 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+            </svg>
+            </a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
