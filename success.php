@@ -11,10 +11,7 @@ if(isset($_POST['sendMailBtn'])){
 
     $content = 'Email is sent from:' . $emailCustomer . ' Content message: ' . $message; 
 
-    echo $to;
-    echo $subject;
-    echo $content;
-    //SendEmail::SendMail($to, $subject, $content);
+    SendEmail::SendMail($to, $subject, $content);
 
     //header("location:javascript://history.go(-1)");
 
