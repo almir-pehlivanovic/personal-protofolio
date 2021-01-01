@@ -1,6 +1,6 @@
 <?php 
 
-//require_once 'sendEmail.php';
+require_once 'sendEmail.php';
 
 if(isset($_POST['sendMailBtn'])){
 
@@ -13,6 +13,6 @@ if(isset($_POST['sendMailBtn'])){
 
     SendEmail::SendMail($to, $subject, $content);
 
-    //header("location:javascript://history.go(-1)");
+    header("location:javascript://history.go(-1)");
 
 }

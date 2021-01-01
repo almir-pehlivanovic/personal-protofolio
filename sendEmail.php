@@ -11,9 +11,6 @@ class SendEmail
     {
         $key = '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';
 
-        echo $to;
-        echo $subject;
-        echo $content;
         $email = new \SendGrid\Mail\Mail();
         $email->setFrom("pehlivanovicalmir1@gmail.com");
         $email->setSubject($subject);
