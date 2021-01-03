@@ -533,7 +533,7 @@
             </div>
 
             <div class="navigation">
-                <a href="#top" class="topBtn w-16 fixed bottom-32 md:bottom-24 right-5 z-50 hidden rounded-full p-4">
+                <a href="#top" class="topBtn w-16 fixed bottom-4 right-5 z-50 hidden rounded-full p-4">
                 <svg class="w-12 h-12 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                 </svg>
