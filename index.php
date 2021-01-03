@@ -7,8 +7,9 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Almir Pehlivanovic</title>
     </head>
-    <body class="overflow-x-hidden bg-indigo-50 font-body" >
-        <div id="top" class="flex flex-wrap-reverse">
+    <body class="bg-indigo-50 font-body">
+        <div class="overflow-x-hidden">
+        <div id="top" class="flex flex-wrap-reverse relative">
             <div class="absolute xl:hidden top-0 left-0 p-6 bg-white border border-indigo-400 shadow-md rounded-br-xl z-50">
                 <button class="menu-block-sm z-50 focus:outline-none">
                     <div class="menu-button-sm">
@@ -174,7 +175,7 @@
         <div id="aboutMe" class="flex items-center flex-wrap xl:flex-nowrap">
             <div class="mx-auto xl:mx-20 mt-24 xl:mt-40 lg:flex-shrink-0 relative" data-aos="fade-down">
                 <img class="img-ab-res mx-auto" src="img/processed.png" alt="">
-                <div class="absolute bg-indigo-400 w-24 h-24 bg-opacity-20 -bottom-16 -right-10 rounded-full"></div>
+                <div class="absolute bg-indigo-400 w-24 h-24 bg-opacity-20 -bottom-16 right-0 sm:-right-10 rounded-full"></div>
             </div>
             <div class="mx-6 xl:mx-10 mt-24 xl:mt-0 xl:mr-20" data-aos="fade-down">
                 <div class="relative">
@@ -544,5 +545,6 @@
         <script>
             AOS.init();
         </script>
+    </div>
     </body>
 </html>
