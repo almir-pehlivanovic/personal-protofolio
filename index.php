@@ -46,7 +46,7 @@
                     <p class="xl:ml-20 pl-6 pr-6 sm:pr-0 sm:pl-0 xl:pl-2.5 mt-6 mb-3.5 sm:text-2xl xl:text-lg text-gray-800">Bachelor of Electrical Engineering & Web Developer</p>
                     <div class="flex flex-wrap justify-center px-6 xl:px-0 xl:justify-start xl:ml-20 sm:mt-8 text-base">
                         <div class="px-2 sm:px-0 z-10 mt-5 sm:mt-0">
-                            <a href="#" class="xl:ml-2.5 py-3 px-4 block text-white rounded-lg bg-indigo-500 hover:bg-indigo-400 transition ease-in duration-200 font-semibold">Download Resume</a>
+                            <a href="attachments/Resume.pdf" target="_blank" class="xl:ml-2.5 py-3 px-4 block text-white rounded-lg bg-indigo-500 hover:bg-indigo-400 transition ease-in duration-200 font-semibold">Download Resume</a>
                         </div>
                         <div class="navigation xl:mb-44 px-2 sm:px-0 z-10 mt-5 sm:mt-0">
                             <a href="#aboutMe" class="sm:ml-11 py-3 block px-12 text-gray-900 rounded-lg bg-gray-100 border border-gray-400 hover:bg-gray-200 transition ease-in duration-200 font-semibold">About me</a>
@@ -179,14 +179,13 @@
             <div class="mx-6 xl:mx-10 mt-24 xl:mt-0 xl:mr-20" data-aos="fade-down">
                 <div class="relative">
                     <h2 class="text-3xl font-bold text-gray-800">About me</h2>
-                    <h2 class="mt-9 text-3xl font-semibold text-indigo-400">I'm Web Developer and also Bachelor of  Electrical Engenering </h2>
+                    <h2 class="mt-9 text-3xl font-semibold text-indigo-400">I'm Bachelor of Electrical Engenering and also Web Developer</h2>
                     <p class="mt-10 text-xl sm:text-2xl text-gray-600"> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum.
+                        Electrical Engineer with a background in electrical circuits, automation, and controls. Understanding of control and power-delivery systems. Experienced in developing technical studies and investigations.
+                        Well-qualified Full Stack Developer familiar with a wide range of programming utilities and
+                        languages. Knowledgeable of backend and frontend development requirements. Able to
+                        handle any part of the process with ease. Collaborative team player with excellent technical
+                        abilities offering 1 year and 6 months of related experience.
                     </p>
                     <div class="absolute top-1/2 hidden sm:block sm:left-1/4 w-96 h-96 bg-opacity-20 bg-indigo-400 rounded-full" style="z-index:-1"></div>
                 </div>
@@ -254,12 +253,7 @@
       
                             <div class="text-xl sm:text-2xl text-gray-600 font-semibold p-8"> 
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua.
-                                </p> 
-                                <p>
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    I completed the first cycle of full-time study lasting 8 semesters / 4 years - 240 ECTS credits at the Faculty of Engineering, University of Bihać in the study program Electrical Engineering, Department of Informatics and gained the academic title and professional title of Bachelor of Electrical Engineering.
                                 </p>
                             </div>
                         </div>
@@ -286,12 +280,7 @@
       
                             <div class="text-xl sm:text-2xl text-gray-600 font-semibold p-8"> 
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua.
-                                </p> 
-                                <p>
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    By applying for a student job that lasted one year and a month, I was on a break from web programming, and my role was Technical Operation Manager where I was trained and worked with Premium SMS services. Provided excellent customer care to maintain and improve customer relationships.                                
                                 </p>
                             </div>
                         </div>
@@ -318,12 +307,7 @@
       
                             <div class="text-xl sm:text-2xl text-gray-600 font-semibold p-8"> 
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua.
-                                </p> 
-                                <p>
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    I started my journey as a Web Developer by applying for an internship where I spent six months studied basic project requirements with assigned technical lead, and learning how to code websites using HTML, CSS, JavaScript, and jQuery, also develop applications using PHP programming language.
                                 </p>
                             </div>
                         </div>
@@ -347,10 +331,12 @@
                 <div class="px-10 sm:px-20 bg-indigo-50 z-10">
                     <img class="mr-auto lg:ml-auto lg:mr-0" src="img/circles-3x.png" alt="">
                     <h2 class="-mt-14 lg:mt-0 text-3xl font-bold text-gray-800">Recent Projects</h2>
-                    <p class="text-xl sm:text-2xl text-gray-600 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    <p class="text-xl sm:text-2xl text-gray-600 font-semibold">
+                        Currently published on Heroku.com, the applications are in sleep <br class="hidden xl:block"> mode, please wait a moment when opening.
+                    </p>
                 </div>
                 <!-- Carousel -->
-                <div class="relative carousel-track lg:mt-12 xl:mt-0">
+                <div class="relative flex-shrink-0 carousel-track lg:mt-12 xl:mt-0">
                     <div class="flex relative mt-12 lg:mt-0 transition-cr" id="track">
                         <div class="ml-6 absolute top-0 left-0 current-slide carousel-track">
                             <a target="blank" href="https://ui-inbox.herokuapp.com/">
@@ -409,16 +395,12 @@
                 <h2>Service I'm Offering</h2>
             </div>
             <div class="md:mx-28 lg:mx-52 flex flex-wrap xl:flex-nowrap">
-                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h" data-aos="fade-down">
+                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl bg-cl-h" data-aos="fade-down">
                     <div class="absolute top-0 right-0 rounded-tr-xl rounded-bl-3xl bg-indigo-600 w-2/3 h-6 bg-cl-hb"></div>
                     <div class="font-semibold px-8 py-16">
                         <h2 class="text-gray-800 text-2xl sm:text-3xl">Web Design</h2>
                         <p class="text-gray-600 text-xl sm:text-2xl pt-12">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea 
-                            consequat.
+                            First impressions really matter. One of the key ingredients to a successful product is the creation of effective, efficient, and visually pleasing displays. In order to produce such high-quality displays, it is very important that you have an up to date, modern, and functional web site.
                         </p>
                     </div>
                     <div class="absolute left-0 sm:-left-20 sm:-bottom-28"> 
@@ -426,44 +408,32 @@
                     </div>
                     <div class="hidden xl:block absolute bg-indigo-400 w-96 h-96 bg-opacity-10 rounded-full -bottom-40 -right-32 z-10"></div>
                 </div>
-                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h"data-aos="fade-down">
+                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl bg-cl-h"data-aos="fade-down">
                     <div class="absolute top-0 right-0 rounded-tr-xl rounded-bl-3xl bg-indigo-600 w-2/3 h-6 bg-cl-hb"></div>
                     <div class="font-semibold px-8 py-16">
                         <h2 class="text-2xl sm:text-3xl text-gray-800">Web Development</h2>
                         <p class="text-xl sm:text-2xl pt-12 text-gray-600">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea 
-                            consequat.
+                            A developer with the expertise required to develop both the front and back end of web applications using the most effective frameworks such as Laravel, VueJS, Bootstrap, Tailwind CSS. The architecture of your code will be adapted to all your needs as well as the needs of users.
                         </p>
                     </div>  
                 </div>
             </div>
             <div class="md:mx-28 lg:mx-52 flex flex-wrap xl:flex-nowrap"> 
-                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h" data-aos="fade-down">
+                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl bg-cl-h" data-aos="fade-down">
                     <div class="absolute top-0 right-0 rounded-tr-xl rounded-bl-3xl bg-indigo-600 w-2/3 h-6 bg-cl-hb"></div>
                     <div class="font-semibold px-8 py-16">
                         <h2 class="text-2xl sm:text-3xl text-gray-800">Graphic Design</h2>
                         <p class="text-xl sm:text-2xl pt-12 text-gray-600">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea 
-                            consequat.
+                            It is important to be up to date with the world of design. The design is constantly changing, new concepts appear, and old concepts return. A process that involves both the client and the designer in a position where your designs will be current, relevant, and suited to you and your users.
                         </p>
                     </div>  
                 </div>  
-                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl cursor-pointer bg-cl-h" data-aos="fade-down">
+                <div class="mt-20 relative bg-white rounded-tl-card-tl rounded-tr-xl rounded-bl-2xl sm:mx-10 shadow-xl bg-cl-h" data-aos="fade-down">
                     <div class="absolute top-0 right-0 rounded-tr-xl rounded-bl-3xl bg-indigo-600 w-2/3 h-6 bg-cl-hb"></div>
                     <div class="font-semibold px-8 py-16">
                         <h2 class="text-2xl sm:text-3xl text-gray-800">Maintenance & Support</h2>
                         <p class="text-xl sm:text-2xl pt-12 text-gray-600">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea 
-                            consequat.
+                            Maintaining your website is important, with monitoring you will never fear having an out-of-date application, or not having a backup. When your application is ready I will take care of all your questions and problems. You can contact me and I will help you with any problems you encounter.
                         </p>
                     </div>  
                 </div>  
@@ -480,12 +450,12 @@
                     <div class="flex flex-wrap px-md-m px-8">
                         <h2 class="text-2xl sm:text-3xl font-bold text-gray-800">Contact me</h2>
                         <p class="text-xl sm:text-2xl text-gray-600 font-semibold mt-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            If you have any questions, please feel free to drop me a line. I will get back to you as soon as possible, you need more information or want an offer, contact me via the contact form to your right, alternatively, you can use the ways below:
                         </p>
                     </div>
                     <div class="px-md-m px-8">
-                        <div class="text-lg sm:text-2xl text-gray-600 font-semibold" data-aos="fade-right">
-                            <div class="flex items-center mt-8 sm:mt-11">
+                        <div class="text-lg sm:text-2xl text-gray-600 font-semibold">
+                            <div class="flex items-center mt-8 sm:mt-11" data-aos="fade-right">
                                     <span class="mr-1 sm:mr-8">
                                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -501,9 +471,8 @@
                                 </span>
                                 <p class="hover:text-gray-800">+387 60-358-7468</p> 
                             </div>
-                            <a class="hover:text-gray-800" href="https://www.facebook.com/almir.pehlivanovic" data-aos="fade-right">
-                                <p class="flex items-center mt-8 sm:mt-11" >
-                                
+                            <a class="hover:text-gray-800" href="https://www.facebook.com/almir.pehlivanovic">
+                                <p class="flex items-center mt-8 sm:mt-11" data-aos="fade-right">
                                     <span class="mr-1 sm:mr-8">
                                         <svg class="h-6 w-3.5 mr-2.5" xmlns="http://www.w3.org/2000/svg" width="1298" height="2500" viewBox="88.428 12.828 107.543 207.085">
                                             <path d="M158.232 219.912v-94.461h31.707l4.747-36.813h-36.454V65.134c0-10.658 2.96-17.922 18.245-17.922l19.494-.009V14.278c-3.373-.447-14.944-1.449-28.406-1.449-28.106 0-47.348 17.155-47.348 48.661v27.149H88.428v36.813h31.788v94.461l38.016-.001z" fill="#3c5a9a"/>
