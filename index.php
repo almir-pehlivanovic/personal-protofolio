@@ -489,7 +489,7 @@
                             <p class="hidden waring-text mb-2 font-bold text-red-400">Please fill in the fields marked with *</p>
                             <p class="hidden p-2 mb-4 text-center success-text font-semibold  rounded-xl bg-green-400">Your email has been sent successfully</p>
                             <input name="subject" class="subject w-full mb-6 2xl:mb-12 py-3 px-6 rounded-xl placeholder-gray-400::placeholder border-2 border-gray-400 focus:outline-none focus:border-indigo-500" type="text" placeholder="Subject *" required>
-                            <input name="fromEmail" class="email w-full mb-6 2xl:mb-12 py-3 px-6 rounded-xl placeholder-gray-400::placeholder border-2 border-gray-400 focus:outline-none focus:border-indigo-500" type="email" placeholder="Email *" required>
+                            <input name="fromEmail" class="email w-full mb-6 2xl:mb-12 py-3 px-6 rounded-xl placeholder-gray-400::placeholder border-2 border-gray-400 focus:outline-none focus:border-indigo-500" type="email" placeholder="Your Email *" required>
                             <textarea name="message" class="message w-full mb-6 2xl:mb-12 py-3 px-6 rounded-xl placeholder-gray-400::placeholder border-2 border-gray-400 focus:outline-none focus:border-indigo-500" cols="30" rows="10" placeholder="Message *" required></textarea>
                             <button name="sendMailBtn" type="submit" class="btnSend bg-indigo-600 duration-150 ease-in font-bold hover:bg-indigo-500 lg:text-2xl py-3 rounded-xl text-center text-white text-xl transition w-full focus:outline-none">Send</button>
                             <div class="absolute top-1/2 transform -translate-y-1/2 -left-14" style="z-index: -1;">
