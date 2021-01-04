@@ -1,22 +1,22 @@
 
 .bg-cl-h:hover{
     background-color: #2563EB;
-    transition: ease-in-out 0.4s;
+    transition: ease-in-out 1s;
 }
 .bg-cl-h:hover h2{
     color: #ffffff !important;
-    transition: ease-in-out 0.4s;
+    transition: ease-in-out 1s;
 }
 .bg-cl-h:hover p{
     color: #ffffff !important;
-    transition: ease-in-out 0.4s;
+    transition: ease-in-out 1s;
 }
 .bg-cl-h:hover .bg-cl-hb{
     background-color: #E5E7EB !important;
-    transition: ease-in-out 0.4s;
+    transition: ease-in-out 1s;
 }
 .transition-cr{
-    transition: transform 0.4s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 .carousel-track{
     width: 26.813rem;
