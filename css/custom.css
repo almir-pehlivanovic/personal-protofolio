@@ -1,19 +1,19 @@
 
 .bg-cl-h:hover{
     background-color: #2563EB;
-    transition: ease-in-out 1s;
+    transition: all 0.4s;
 }
 .bg-cl-h:hover h2{
     color: #ffffff !important;
-    transition: ease-in-out 1s;
+    transition: all 0.4s;
 }
 .bg-cl-h:hover p{
     color: #ffffff !important;
-    transition: ease-in-out 1s;
+    transition: all 0.4s;
 }
 .bg-cl-h:hover .bg-cl-hb{
     background-color: #E5E7EB !important;
-    transition: ease-in-out 1s;
+    transition: all 0.4s;
 }
 .transition-cr{
     transition: transform 0.4s ease-in-out;
